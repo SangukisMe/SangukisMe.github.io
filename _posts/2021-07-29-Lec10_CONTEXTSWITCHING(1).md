@@ -11,7 +11,7 @@ categories:
 tags:
   - Embedded
   - RTOS
-last_modified_at: 2021-07-27
+last_modified_at: 2021-07-29
 ---
 
 <br/>
