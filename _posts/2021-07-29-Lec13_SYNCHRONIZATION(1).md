@@ -220,7 +220,7 @@ static void interrupt_handler(void)
 {
            uint8_t ch = Hal_uart_get_char();
    
-	if (ch == 'U')
+	if (ch != 'X')
 	{
 		Hal_uart_put_char(ch);
     	       Kernel_send_msg(KernelMsgQ_Task0, &ch, 1);
